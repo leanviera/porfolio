@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--META-->
+        <meta name="description" content="Porfolio web de Leandro Viera" />
+        <meta name="keywords" content="porfolio, web, leandro viera, junior, developer" />
+        <meta name="author" content="Leandro Ariel Viera" />
+        <meta name="copyright" content="Leandro Ariel Viera 2022" />
+
+        <!--ROBOTS-->
+        <meta name="robots" content="index" />
+        <meta name="robots" content="follow" />
+        
+        <!--FB-->
+        <meta property="og:description" content="Porfolio que muestra los projectos realizados" />
+        <meta property="og:title" content="Porfolio de Leandro Viera" />
+        <meta property="og:image" content="assets/img/favicon.ico" />
+        <meta property="og:url" content="https://porfolio-web-cb2da.web.app/" />
+        <meta property="og:type" content="Página web" />
+
+        <!--TWITTER-->
+        <meta property="twitter:description" content="Porfolio que muestra los projectos que realice" />
+        <meta property="twitter:title" content="Porfolio de Leandro Viera" />
+        <meta property="twitter:image" content="assets/img/favicon.ico" />
+        <meta property="twitter:url" content="https://porfolio-web-cb2da.web.app/" />
+        <meta property="twitter:type" content="Página web" />
+
+
+
+        <title>Portfolio - LeandroViera</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+        <!-- Tema Button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/imageonline-co-transparentimage.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <h2 class="profile__name">Leandro Viera</h2>
+                    <h3 class="profile__profession">Front-End Trainee/Junior</h3>
+                    
+                    <ul class="profile__social">
+                        <a href="https://www.linkedin.com/in/leandroviera/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/leanviera" target="_blank" class="profile__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/leandroviera2/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </ul>
+                
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <p class="profile__info-description">Soy de Buenos Aires, </br>Argentina</p>
+                    </div>
+                    <div class="profile__info-group">
+                        <p class="profile__info-description">Me encuentro estusiasmado</br> de crecer y sumergirme</br> en el mundo IT </p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/CV LeandroViera.pdf" class="button">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a>
+                    <div class="profile__buttons-small">
+                        <a href="mailto:leanarielviera100@gmail.com" target="_blank" class="button button__small button__gray">
+                            <i class="ri-mail-line"></i>
+                        </a>                 
+                        <a href="https://api.whatsapp.com/send?phone=1127827561" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active " data-target="#projects">
+                        Proyectos
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/snake.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Mini-Juego con JavaScript</span>
+                                    <h3 class="projects__title">Viborita</h3>
+                                    <a href="https://viborita-1b396.web.app/" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>   
+                        
+                        <article class="projects__card">
+                            <img src="assets/img/starbucks.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Landing Page de Starbucks utilizando HTML, CSS y JavaScript</span>
+                                    <h3 class="projects__title">Starbucks Landing Page</h3>
+                                    <a href="https://starbucks-landing-page-efb2b.web.app/" class= "projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/carro.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Comercio en línea creado con Strapi</span>
+                                    <h3 class="projects__title">E-commerce</h3>
+                                    <a href="" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="projects__card">
+                            <img src="assets/img/tesoro.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Mini-Juego con JavaScript</span>
+                                    <h3 class="projects__title">Encuentra el tesoro</h3>
+                                    <a href="https://busqueda-del-tesoro-f805b.web.app/" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                       
+                        
+                        <article class="projects__card">
+                            <img src="assets/img/crotochat.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Creada con Firebase, podras loguearte con Google</span>
+                                    <h3 class="projects__title">Crotochat</h3>
+                                    <a href="https://crotochat-1cbb7.web.app/" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="projects__card">
+                            <img src="assets/img/coke.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Landing Page de CocaCola utilizando HTML, CSS y JavaScript</span>
+                                    <h3 class="projects__title">CocaCola Landing Page</h3>
+                                    <a href="https://calentamiento-1a7e0.web.app/" class= "projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/tirarMoneda.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web para practicar JavaScript</span>
+                                    <h3 class="projects__title">Cara o Cruz</h3>
+                                    <a href="https://cara-o-cruz-33fe4.web.app/" class= "projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/decisión.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web para practicar JavaScript</span>
+                                    <h3 class="projects__title">Toma una Decisión</h3>
+                                    <a href="https://decididor-2eb78.web.app/" class= "projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Frontend developer
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">CSS y Bootstrap</h3>
+                                            <span class="skills__level">Básico</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Básico
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Aprendiendo
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-book-read-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">React</h3>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-book-read-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-book-read-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Git - Github</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Leandro Ariel Viera
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
